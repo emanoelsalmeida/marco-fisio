@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>MM Fisioterapeuta</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style-extra.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="extra-img">
+           <div class="extra-img-item">
+               <img src="images/dor na coluna.jpg" alt="">
+           </div> 
+        </div>
+        <div class="extra-p1">
+            <div class="extra-p1-item">
+                <h1>
+                    Tratamento Dor na coluna
+                                </h1>
+                <p>
+                    As dores crônicas de coluna constituem uma das queixas comumente relatadas pela população adulta, gerando incapacidade, redução da funcionalidade, e afastamentos do trabalho. As dores na coluna englobam as cervicalgias, as dores torácicas, as ciáticas e as dores lombares, que podem ser decorrentes de diferentes doenças osteomusculares, de transtornos dos discos intervertebrais, de espondiloses ou de radiculopatias, sendo estas últimas as mais frequentes.                 </p>
+                <p>
+                    Estima-se que 70% a 85% da população terá algum episódio de dor nas costas no decorrer da vida, que podem ser resultantes de alterações anátomo fisiológicas, como o desgaste nos componentes osteomusculares de sustentação da coluna, gestação, processos inflamatórios, degenerativos, neoplásicos, defeitos congênitos (lordoses, cifoses, debilidade muscular).    
+                            </p>
+               
+            </div>
+        </div>
+        <div class="whatsapp">
+            <a href="https://wa.me/5521983504103"><img src="images/whats.png">
+            </a>
+        </div>
+    </main>
+	<footer> 
+        <div class="f-i">
+            <p>
+                © Todos os direitos reservados
+            </p>
+            <p><a href="https://www.instagram.com/emanoelsalmeida/">Desenvolvido por Agência Humans</a></p>
+        </div>
+        <div class="f-i">
+
+        </div>
+    </footer>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+
+        //menu toggle-button
+
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        //scrolling effect
+
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+</body>
+
+</html>

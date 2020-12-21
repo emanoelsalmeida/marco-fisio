@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>MM Fisioterapeuta</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style-extra.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="extra-img">
+           <div class="extra-img-item">
+               <img src="images/quiropraxia.jpg" alt="">
+           </div> 
+        </div>
+        <div class="extra-p1">
+            <div class="extra-p1-item">
+                <h1>
+                    Tratamento Quiropratico 
+                </h1>
+                <p>
+                    Quiropraxia é uma técnica manual capaz de prevenir e melhorar subluxações vertebrais e articulares que causam dor e desconforto. Trata-se de um método geralmente indolor, que investe em ajustes da coluna vertebral e articular de forma a restaurar as funções corretas do sistema nervoso e biomecânico. Ao mesmo tempo em que corrige disfunções e possibilita o poder de auto cura do corpo.
+                </p>
+                <p>
+                    A Quiropraxia trata predominantemente de alterações do sistema neuro musculoesquelético, ou seja, problemas articulares, de músculos, tendões, ligamentos, bursas, disco interarticular, etc. Quiropraxistas tratam também de problemas envolvendo os nervos quando estes problemas estão associados a alterações musculoesqueléticas, como por exemplo, hérnia de disco, quando esta hérnia está comprimindo a raiz de um nervo espinal (radiculopatias).
+                </p>
+                <p>
+                    A Manipulação articular é a principal forma de tratamento com a Quiropraxia. A manipulação articular, ou ajuste quiroprático, é a principal forma de terapia manual utilizada por Quiropraxistas.
+                </p>
+                <p>
+                    A Quiropraxia é uma profissão primária, ou seja, o paciente pode consultar-se com o quiropraxista diretamente, sem ter que ser encaminhado por outro profissional na área da saúde.
+                </p>
+            </div>
+        </div>
+        <div class="whatsapp">
+            <a href="https://wa.me/5521983504103"><img src="images/whats.png">
+            </a>
+        </div>
+    </main>
+	<footer> 
+        <div class="f-i">
+            <p>
+                © Todos os direitos reservados
+            </p>
+            <p><a href="https://www.instagram.com/emanoelsalmeida/">Desenvolvido por Agência Humans</a></p>
+        </div>
+        <div class="f-i">
+
+        </div>
+    </footer>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+
+        //menu toggle-button
+
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        //scrolling effect
+
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+</body>
+
+</html>

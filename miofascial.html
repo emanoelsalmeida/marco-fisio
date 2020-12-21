@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>MM Fisioterapeuta</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style-extra.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="extra-img">
+           <div class="extra-img-item">
+               <img src="images/imagem liberação.jpg" alt="">
+           </div> 
+        </div>
+        <div class="extra-p1">
+            <div class="extra-p1-item">
+                <h1>
+                    Tratamento manipulação articular e visceral 
+                                </h1>
+               <p>
+                É uma técnica que mescla apoios, pressão manual e deslizamentos no tecido miofascial, e que requer o reconhecimento das áreas e trajetos de resistências e tensões e que se dá num processo interativo, pois necessita da resposta do corpo do paciente para determinar a duração, profundidade e direção da pressão exercida sobre o tecido. O toque realizado com as mãos é a sobrecarga inicial colocada sobre o tecido, a partir do qual se esperam as respostas bioquímicas e mecânicas.               </p>
+
+               <p>
+                A liberação (soltura) é uma técnica que atua com mobilizações manuais da fáscia, que são executadas para aumentar a amplitude de movimento, aliviar a dor e restaurar a quantidade e a qualidade normal dos movimentos. 
+               </p>
+               <p>
+                Na fisioterapia a utilidade da fáscia se dá através de sua “liberação”, acredita-se que esta fáscia pode em algum momento e por razões desconhecidas não permitir uma livre movimentação entre os músculos, na maioria das vezes isso ocorre por pontos de tensão já que a vida hoje requer uma tensão constante.
+               </p>
+            </div>
+        </div>
+        <div class="whatsapp">
+            <a href="https://wa.me/5521983504103"><img src="images/whats.png">
+            </a>
+        </div>
+    </main>
+	<footer> 
+        <div class="f-i">
+            <p>
+                © Todos os direitos reservados
+            </p>
+            <p><a href="https://www.instagram.com/emanoelsalmeida/">Desenvolvido por Agência Humans</a></p>
+        </div>
+        <div class="f-i">
+
+        </div>
+    </footer>
+    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+
+        //menu toggle-button
+
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        //scrolling effect
+
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+</body>
+
+</html>
