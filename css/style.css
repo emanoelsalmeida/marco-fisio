@@ -11,20 +11,20 @@ header {position: fixed;width: 100%;}
 nav ul{list-style: none;background: rgba(0,0,0,0);overflow: hidden;color: #fff;
     padding: 0;text-align: center;margin: 0;transition: 1s;}
 
-nav.black ul{background: #f91555;}
+nav.black ul{background:#7f3895;}
 nav.black ul li a{color: #fff;}
 
 nav ul  li{display: inline-block;padding: 20px;}
 
 nav ul li a{text-decoration: none;color: #04163e;font-size: 1.5rem;}
 
-.menu-icon{width: 100%;background: #f91555;text-align: right;box-sizing: border-box;
+.menu-icon{width: 100%;background:#7f3895;text-align: right;box-sizing: border-box;
     padding: 15px 24px;cursor: pointer;color: #fff;display: none;}
 
 .pag-slide{z-index: 2;}    
 .pag-slide > .carousel.item img{display: block;margin: 0 auto;width: 100%;height: auto;}
 
-.p2{background: #f91555;padding: 2em 0 0 0;color: #fff;display: flex;
+.p2{background:#7f3895;padding: 2em 0 0 0;color: #fff;display: flex;
 justify-content:center;align-items: center;}
 .p2-box{display: flex;justify-content:center;align-items: center;width: 100%;}
 .p2-item p{margin: .5em 5em;}
@@ -43,7 +43,7 @@ justify-content:center;align-items: center;}
 
 form button{padding: 1em 2em;color: #fff;background-color: #04163e;    
     border: none;font-size: 1.2rem;}
-form button:hover{background-color: #f91555}
+form button:hover{background-color:#7f3895}
 
 .whatsapp a img{position: fixed;top: 81vh;right: 2.5%;width: 8vw;height: auto;}
 
@@ -65,7 +65,7 @@ footer p a{color:#df0b4d; text-decoration: none;}
 
     .logo{position: fixed;top: 0;margin-top: 16px;}
 
-    nav ul{max-height: 0px;background: #f91555;}
+    nav ul{max-height: 0px;background:#7f3895;}
 
     nav.black ul{background-color:#f91555;color:#fff ;}
    
